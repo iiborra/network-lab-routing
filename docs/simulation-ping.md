@@ -20,7 +20,7 @@ This simulation demonstrates how an ICMP Echo Request (ping) travels across VLAN
 
 ##  Packet Creation at PC0
 
-![Simulation Step 1](./images/Simulation-ping-1.png)
+![Simulation Step 1](/images/Simulation-ping-1.png)
 
 PC0 initiates an ICMP Echo Request.
 
@@ -54,7 +54,7 @@ The switch receives the Ethernet frame.
 
 ##  Router Processing (Layer 3 Routing)
 
-![Simulation Step 2](./images/Simulation-ping-2.png)
+![Simulation Step 2](/images/Simulation-ping-2.png)
 
 The router receives a tagged frame.
 
@@ -93,7 +93,7 @@ The switch receives the new frame.
 
 ##  Packet Reception at PC2
 
-![Simulation Step 3](./images/Simulation-ping-3.png)
+![Simulation Step 3](/images/Simulation-ping-3.png)
 
 PC2 receives the frame.
 
